@@ -1,21 +1,15 @@
+import UseRefHook from "./Components/Functional components/Hooks/UseRefHook";
 
 function App() {
-
-  const userData = {
-    name: "Tapan vyas",
-    age: 23,
-    location: "Burhanpur"
-  }
+  // const userData = {
+  //   name: "Tapan vyas",
+  //   age: 23,
+  //   location: "Burhanpur",
+  // };
 
   return (
     <div>
-      {/* <CreateElementByJsx /> */}
-      {/* <ClassState /> */}
-      {/* <CardHolder /> */}
-      {/* <SetState /> */}
-      {/* <Destructuring user={userData} /> */}
-      {/* <FunctionClick /> */}
-      {/* <ClassClick /> */}
+      <UseRefHook />
     </div>
   );
 }
